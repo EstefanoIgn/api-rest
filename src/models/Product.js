@@ -1,9 +1,3 @@
-//DATOS
-const products = [
-    { id: 1, name: "Camiseta Deportiva", price: 150, categories: ["Ropa", "Deportes"] },
-    { id: 2, name: "Zapatos Running", price: 1200, categories: ["Calzado", "Deportes"] },
-    { id: 3, name: "Mochila Escolar", price: 350, categories: ["Accesorios", "Escolar"] }
-];        
 
 //HACEMOS IMPORTACIONES
 import {db} from './firebase.js'
