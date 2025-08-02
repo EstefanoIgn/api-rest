@@ -1,4 +1,12 @@
-GET http://localhost:3000 HTTP/1.1
+GET http://localhost:3000/ HTTP/1.1
 ###
-GET http://localhost:3000/products HTTP/1.1
+GET http://localhost:3000/api/products HTTP/1.1
+###
+GET http://localhost:3000/api/products/3 HTTP/1.1
+###
+
+GET http://localhost:3000/api/products/?category=Calzado HTTP/1.1
+###
+
+GET http://localhost:3000/api/products/search?name=zap HTTP/1.1
 ###
